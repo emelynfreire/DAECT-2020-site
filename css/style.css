@@ -1,10 +1,10 @@
 /*configurações globais */
 
 body{
-    background-image: url(imagens/imagem-fundo.png) !important;
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    background-image: url('imagens/wall.jpeg');
     background-size: cover;
 }
 
@@ -66,7 +66,7 @@ footer p a:hover{
     }
 
     body{
-        background: url(imagens/imagem-fundo.png) !important;
+        background: url("imagens/imagem-fundo.png") !important;
         margin: 0;
         padding: 0;
         background-attachment: fixed;
@@ -632,27 +632,29 @@ footer p a:hover{
         top: 0;
         left: 0;
         z-index: 9999;
+        
     }
 
     nav img{
-        width: 52% !important;
+        width: 75px !important;
         margin-left: 5%;
     }
 
     .links{
-        margin-left: 58%;
+        margin-left:55%;
         font-size: 15px;
+       
     }
 
     .links ul li a{
-        color: #0092ff !important;
+        color: #0092ff;
         font-weight: bolder;
     }
 
     .links a:hover{
         text-decoration: none !important;
         color: #e9b100 !important;
-        border-bottom: 3px solid #0092ff !important;
+        border-bottom: 3px solid #0092ff;
         transition: 0.4s;
     }
 
