@@ -1,94 +1,48 @@
-.contrast,
-.contrast nav,
-.contrast div,
-.contrast li,
-.contrast ol,
-.contrast header,
-.contrast footer,
-.contrast section,
-.contrast main,
-.contrast aside,
-.contrast article {
-    background: black !important;
+(function () {
+    var Contrast = {
+        storage: 'contrastState',
+        cssClass: 'contrast',
+        currentState: null,
+        check: checkContrast,
+        getState: getContrastState,
+        setState: setContrastState,
+        toogle: toogleContrast,
+        updateView: updateViewContrast
+    };
 
-}
+    window.toggleContrast = function () { Contrast.toogle(); };
 
-.contrast h1,
-.contrast h2,
-.contrast h3,
-.contrast h4,
-.contrast h5,
-.contrast h6,
-.contrast blockquote,
-.contrast p,
-.contrast label,
-.contrast strong,
-.contrast em,
-.contrast cite,
-.contrast q,
-.contrast i,
-.contrast b,
-.contrast u,
-.contrast span{
-    color: white !important;
-}
+    Contrast.check();
 
-/*LINKS*/
-.contrast a{
-    color: yellow !important;
-    background: black !important;
-}
+    function checkContrast() {
+        this.updateView();
+    }
 
-.contrast a:hover{
-	color: black !important;
-    background: yellow !important;
+    function getContrastState() {
+        return localStorage.getItem(this.storage) === 'true';
+    }
 
-}
+    function setContrastState(state) {
+        localStorage.setItem(this.storage, '' + state);
+        this.currentState = state;
+        this.updateView();
+    }
 
+    function updateViewContrast() {
+        var body = document.body;
 
-/*BOTÕES*/
-.contrast button,
-.contrast input[type=button],
-.contrast input[type=reset],
-.contrast input[type=submit] {
-    background: black !important;
-    color: yellow !important;
-    border: none !important;
-}
+        if (this.currentState === null)
+            this.currentState = this.getState();
 
-.contrast button,
-.contrast input[type=button],
-.contrast input[type=reset],
-.contrast input[type=submit] {
-    background: black !important;
-    color: yellow !important;
-    border: none !important;
-}
+        if (this.currentState)
+            body.classList.add(this.cssClass);
+        else
+            body.classList.remove(this.cssClass);
+    }
 
-/*IMAGENS*/
-.contrast img.on-contrast-force-gray {
-    filter: grayscale(100%) contrast(120%);
-}
+    function toogleContrast() {
+        this.setState(!this.currentState);
+    }
 
-.contrast img.on-contrast-force-white {
-    filter: brightness(0) invert(1);
-}
-
-/*CAMPOS DE FORMULÁRIOS*/
-.contrast input[type=text],
-.contrast input[type=password],
-.contrast input[type=url],
-.contrast input[type=search],
-.contrast input[type=email],
-.contrast input[type=tel],
-.contrast input[type=date],
-.contrast input[type=month],
-.contrast input[type=week],
-.contrast input[type=datetime],
-.contrast input[type=datetime-local],
-.contrast textarea,
-.contrast input[type=number] {
-    background: black !important;
-    border: 1px solid white !important;
-    color: white !important;
-}
+    
+})();
