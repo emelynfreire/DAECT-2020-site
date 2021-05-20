@@ -1,7 +1,9 @@
 # SITE OFICIAL DO DIRETÓRIO ACADÊMICO DA ESCOLA DE CIÊNCIAS E TECNOLOGIA VULGO DAECT UFRN
+------------------------------------------------------------------------
 
 
 *INTRODUÇÃO*
+------------------------------------------------------------------------
 Esse site foi idealizado por Emelyn Freire vice-presidenta na Gestão Organizar & Agir em 2020 conjunto a na época ao calouro Breno Barbosa, o site tem e teve como objetivo um local central de ajuda para compreender mais sobre o curso DE C&T, a ECT e a UFRN.
 
 
@@ -36,6 +38,6 @@ PARA QUEM VAI COLOCAR NO SERVIDOR DA UFRN instale o WinSCP: https://winscp.net/e
 Cursos gratuítos com geração de certificado: https://digitalinnovation.one/sign-up?ref=RD50T9RHLO
 
 
-*DESDE JÁ AGRADECEMOS TODA A CONTRIBUÍÇÃO
+DESDE JÁ AGRADECEMOS TODA A CONTRIBUÍÇÃO
 ------------------------------------------------------------------------
 
