@@ -24,13 +24,13 @@ require 'PHPMailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $mail->isSMTP();
 
-//config serv
+//config serv esses dados fiquei de conferir 
 $mail->Host = "ect.ufrn.br";
 $mail->Port = "2222";
 $mail->SMTPSecure = "tls";
 $mail->SMTPAuth = "true";
 $mail->Username = "daect@ect.ufrn.br";
-$mail->Password = "";
+$mail->Password = ""; //senha apenas colocar quando for colcoar no servidor porque é a senha do e-mail
 
 
 
@@ -39,7 +39,7 @@ $mail->setFrom($mail->Username, "SITE DAECT.UFRN.BR");
 $mail->addAddress('daect@ect.ufrn.br');
 $mail->Subject = "CONTATO PELO SITE";
 
-
+//a partir daqui podemos criar um html pra vim pra o e-mail do DA bem formato e-mail marketing
 $conteudo_email = "
                             <b>Nome: </b> $nome <br>
                             <b>E-mail: </b> $email <br>
