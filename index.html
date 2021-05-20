@@ -11,7 +11,9 @@
     content="Diretório acadêmico da ECT. Site do DAECT. Escola de Ciências e Tecnologia da UFRN. ECT. DAECT.">
   <meta name="generator" content="Visual Studio Code">
 
-  <link rel="stylesheet" href="style.css" media="screen and (color)">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contraste.css">
+  <link rel="stylesheet" href="css/style.css" media="screen and (color)">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Spartan&display=swap">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -394,13 +396,62 @@
 
 
 
-        <!-- FORMULÁRIO  Contact Us Section -->
-  <section  id ="contato" style="background: blue;">
 
-    
-     <!-- código formulário aqui -->
-  </section>
+  <!-- AQUI COMEÇA O CODIGO DE FORMULÁRIO DE CONTATO -->
+ 
+<section id="contato">
+  <div class="contatos">
+                  
+                    <form id="form1" name="form1" method="post" action="dados.php">
+                        <h1>Fale Conosco</h1>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nomeid" name="nome"placeholder="Seu nome aqui">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Endereço de Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="ex: nome@daect.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" class="form-control" id="nomeid" name="telefone"placeholder="assunto aqui">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" name="mensagem" id="mensagem" rows="3"></textarea>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6LcXx9waAAAAAH17SCvwD5V9OLxk8MVEHVPtDz9w"></div>
+                        <button class="form-btn">
+                            <a type="submit"  value="Enviar">Enviar</a>
+                        </button>
+                    </form>
 
+                    <div class="contatos-title"  data-aos="fade-right" data-aos-delay="300">
+                      <h1>CONTATOS</h1>
+                  </div>
+
+                  <div class="contatos-links-logos" data-aos="fade-up" data-aos-delay="400">
+
+                      <a href="mailto:organizareagirdaect@gmail.com?subject=Contato com o DAECT" target="_blank">
+                          <i class="fas fa-envelope" id="email-icon"></i>
+                      </a>
+                      <a href="https://www.instagram.com/daect_ufrn/" target="_blank">
+                          <i class="fab fa-instagram" id="instagram-icon"></i>
+                      </a>
+                      <a href="https://twitter.com/daect_ufrn" target="_blank">
+                          <i class="fab fa-twitter" id="twitter-icon"></i>
+                      </a>
+                      <a href="tel:+5584998435812" target="_blank">
+                          <i class="fas fa-mobile" id="mobile-icon"></i>
+                      </a>
+                      <a href="https://www.facebook.com/daect.ect.ufrn.br/" target="_blank">
+                          <i class="fab fa-facebook-f" id="facebook-icon"></i>
+                      </a>
+
+                  </div>
+              
+  </section> 
+ <!-- AQUI TERMINA O CODIGO DE FORMULÁRIO DE CONTATO -->
 
 
 
@@ -436,6 +487,10 @@
     </div>
   </div>
 
+  <!--script do recaptcha-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -446,7 +501,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
   <!--acessibilidade web-->
   <link href="contraste.css" rel="stylesheet">
-  <script src="./js/contraste.js"></script>
+  <script src="js/contraste.js"></script>
   <script type="text/javascript" src="js/acessibilidade.js"></script>
   <!--fim acessibilidade web-->
 
