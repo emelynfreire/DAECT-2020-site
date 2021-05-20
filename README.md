@@ -1,18 +1,18 @@
-# SITE OFICIAL DO DIRETÓRIO ACADÊMICO DA ESCOLA DE CIÊNCIAS E TECNOLOGIA VULGO DAECT UFRN
+# SITE OFICIAL DO DIRETÓRIO ACADÊMICO DA ESCOLA DE CIÊNCIAS E TECNOLOGIA | DAECT UFRN
 ------------------------------------------------------------------------
 
 
 *INTRODUÇÃO*
 ------------------------------------------------------------------------
-Esse site foi idealizado por Emelyn Freire vice-presidenta na Gestão Organizar & Agir em 2020 conjunto a na época ao calouro Breno Barbosa, o site tem e teve como objetivo um local central de ajuda para compreender mais sobre o curso DE C&T, a ECT e a UFRN.
+Esse site foi idealizado por Emelyn Freire vice-presidenta na Gestão Organizar & Agir em 2020 conjunto a na época o calouro Breno Barbosa, o site tem e teve como objetivo um local central de ajuda para compreender mais sobre o curso DE C&T, a ECT e a UFRN.
 
 
 
 *INFORMAÇÕES IMPORTANTES*
 ------------------------------------------------------------------------
-1. ESSE REPOSITÓRIO ESTARÁ SENDO O OFICIAL PARA DESENVOLVIMENTO O SITE DO DAECT NÃO CRIAR MAIS OUTROS REPOSITÓRIOS
+1. ESSE REPOSITÓRIO ESTARÁ SENDO O OFICIAL PARA DESENVOLVIMENTO DO SITE DO DAECT, FAVOR NÃO CRIAR MAIS OUTROS REPOSITÓRIOS
 2. Código totalmente voluntário
-3. Atualmente o site está no servidor da UFRN e como responsáveis a STI UFRN, apenas pessoal do DAECT responsável por upar.
+3. Atualmente o site está no servidor da UFRN e como responsáveis a STI UFRN, apenas pessoal do DAECT responsável por upar no servidor.
 4. Link oficial desse site: https://daect.ect.ufrn.br/
 
 
@@ -39,5 +39,4 @@ Cursos gratuítos com geração de certificado: https://digitalinnovation.one/si
 
 
 DESDE JÁ AGRADECEMOS TODA A CONTRIBUÍÇÃO
-------------------------------------------------------------------------
 
